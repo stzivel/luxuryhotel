@@ -9,19 +9,19 @@ function Navbar() {
     const links = [
         {
             link:'#Home',
-            title:'ΑΡΧΙΚΗ',
+            title:'HOME',
         },
         {
             link:'#Appartments',
-            title:'ΤΑ ΔΙΑΜΕΡΙΣΜΑΤΑ ΜΑΣ',
+            title:'APPARTMENTS',
         },
         {
             link:'#Aboutus',
-            title:'ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ',
+            title:'ABOUT US',
         },
         {
             link:'#Contact',
-            title:'ΕΠΙΚΟΙΝΩΝΙΑ',
+            title:'CONTACT',
         },
 
 
@@ -56,7 +56,7 @@ function Navbar() {
                 </div>
 
                 <div className="navbar__links-button">
-                    <button type='button'>ΚΡΑΤΗΣΗ</button>
+                    <button type='button'>BOOK</button>
                 </div>
 
             </div>

@@ -1,5 +1,7 @@
 .navbar{
-    background-color: #f6f6f6;
+    /* background-color: #f6f6f6; */
+    background-color: var(--color4);
+    
     display: flex;
     align-items: center;
      width: 100%; 
@@ -58,7 +60,7 @@
 .navbar__links-button button{
     font-family: var(--font-family);
     font-size: 18px;
-    background-color: #f7972d;
+    background-color: var(--color1);
     border: none;
     padding: 1rem 2rem;
     line-height: 25px;
@@ -73,11 +75,7 @@
     display: none;
     position: relative;
 
-    
-
 }
-
-
 
 .navbar__menu-container{
     display: flex;
