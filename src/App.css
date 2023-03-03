@@ -11,3 +11,28 @@
 .section__margin {
   margin: 4rem 6rem;
 }
+
+p{
+  font-family: var(--font-family);
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+
+}
+
+hr{
+    
+  width: 100%;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1rem 0;
+  height: 10px;
+ 
+  
+}

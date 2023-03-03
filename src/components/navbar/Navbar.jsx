@@ -44,14 +44,6 @@ function Navbar() {
                     {links.map((link)=>(
                         <p><a href={link.link}>{link.title}</a></p>
                     ))}
-
-                  
-                    
-
-                    {/* <p><a href="#Home">ΑΡΧΙΚΗ</a></p>
-                    <p><a href="#Apartments">ΤΑ ΔΙΑΜΕΡΙΣΜΑΤΑ ΜΑΣ</a></p>
-                    <p><a href="#Aboutus">ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</a></p>
-                    <p><a href="#Contact">ΕΠΙΚΟΙΝΩΝΙΑ</a></p> */}
                    
                 </div>
 
@@ -79,7 +71,7 @@ function Navbar() {
                         </div>
 
                         <div className='navbar__menu-container-button'>
-                        <button type='button'>ΚΡΑΤΗΣΗ</button>
+                        <button type='button'>BOOK</button>
 
                         </div>
                     </div>
