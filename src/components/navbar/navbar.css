@@ -74,6 +74,8 @@
 .navbar__menu{
     display: none;
     position: relative;
+    z-index: 999;
+    opacity: 0.8;
 
 }
 
