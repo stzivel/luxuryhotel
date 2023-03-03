@@ -84,7 +84,7 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    background-color: #f7972d;
+    background-color: var(--color2);
     padding: 2rem;
     position: absolute;
     top: 40px;
