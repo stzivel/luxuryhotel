@@ -23,13 +23,6 @@ function About() {
 
             </div>
 
-          
-
-
-
-            
-
-
         </div>
 
 
