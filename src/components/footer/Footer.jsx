@@ -14,7 +14,7 @@ function Footer() {
 
     <div className="footer__container">
 
-      <div className='footer__container-contact'>
+      <div className='footer__container-contact' id='Contact'>
 
         <img src={logo} alt="" />
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
