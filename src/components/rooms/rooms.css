@@ -41,3 +41,12 @@
     align-items: center;
     padding-top: 1rem;
 }
+
+
+@media screen and (max-width:1150px){
+    .rooms__container{
+        flex-direction: column;
+        
+    }
+}
+

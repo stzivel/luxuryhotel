@@ -4,7 +4,7 @@ import logo2 from '../../assets/logo2.webp'
 
 function About() {
   return (
-    <div className='about section__padding'>
+    <div className='about section__padding' id='Aboutus'>
         <div className='about__content'>
             <div className="about__content-image">
                 <img src={logo2} alt= 'logo2' />

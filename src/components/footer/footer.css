@@ -70,18 +70,34 @@
 }
 
 
-
-
-
-
-
-
-
-
-
 .footer__container-contact img{
     width: 200px;
     height: 160px;
 
+}
+
+
+@media screen and (max-width:1150px){
+    .footer__container{
+        flex-direction: column;
+    }
+
+    .footer__container-contact{
+        align-items: center;
+    }
+    
+    
+    .footer__container-links{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer__container-links a{
+        margin: 1rem 1rem;
+    }
+
+    .footer__container-contact p{
+        text-align: center;
+    }
 }
 

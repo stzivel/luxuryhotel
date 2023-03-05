@@ -87,6 +87,27 @@ opacity: 0.9;
 }
 
 
+@media  screen and (max-width:1150px) {
+    .room{
+        width: 90%;
+    }
+    
+    .room__card{
+        margin: 1rem 0;
+    }
+
+    .room__card{
+        padding-bottom: 1rem;
+       
+    }
+}
+
+@media  screen and (max-width:550px){
+    .room__card-text p{
+        font-size: 16px;
+    }
+}
+
 
 
 

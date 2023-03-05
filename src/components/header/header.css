@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
    
+   
 }
 
 
@@ -23,8 +24,7 @@
 }
 
 .header__content-title{
-    /* display: flex;
-    justify-content: center; */
+    text-align: center;
 }
 
 
@@ -52,6 +52,19 @@
     color: #EEE9DA;
     font-weight: 800;
 }
+
+@media screen and (max-width: 1050px)
+{
+
+    .header__content-title h1{
+       
+        font-size: 54px;
+        
+    }
+}
+
+
+
 
 
 

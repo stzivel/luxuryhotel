@@ -4,7 +4,7 @@ import logo1 from '../../assets/logo1.jpg'
 
 function Header() {
   return (
-    <div className='header'>
+    <div className='header' id='Home'>
 
         <div className='header__content'>
 

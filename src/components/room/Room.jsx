@@ -3,7 +3,7 @@ import './room.css'
 
 function Room({image, title, price, text}) {
   return (
-    <div className='room'>
+    <div className='room ' id='Appartments'>
         <div className="room__card">
             <div className="room__card-image">
 

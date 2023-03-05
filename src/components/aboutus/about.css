@@ -13,12 +13,19 @@
 .about__content-image{
     display: flex;
     padding: 2rem;
+    justify-content: center;
     
+}
+
+.about__content-image img{
+width: 100%;
+height: auto;
 }
 
 .about__content-text{
 display: flex;
 flex-direction: column;
+
 padding: 4rem;
 }
 
@@ -61,6 +68,35 @@ padding: 4rem;
      background-color:#fff; 
     color: var(--color2);
     cursor: pointer;
+}
+
+@media screen and (max-width:1050px){
+    
+    .about{
+        padding: 2rem 4rem;
+    }
+    .about__content{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .about__content-button {
+      
+        justify-content: center;
+
+    }
+
+    .about__content-image img{
+        max-width: 500px;
+    }
+
+    .about__content-text p{
+
+        padding-right: 0;
+       
+    }
 }
 
 
