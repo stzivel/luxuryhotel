@@ -1,71 +1,57 @@
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-   
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.header__content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    background-image: url('../../assets/logo1.jpg'); 
-    background-color: #cccccc; 
-    height: 700px;
-    background-position: center center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    opacity: 0.9;
-    
+.header__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-image: url("../../assets/logo1.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
 }
 
-.header__content-title{
-    text-align: center;
+.header__content-title {
+  text-align: center;
 }
 
-
-
-.header__content-title h1{
-    font-family: var(--font-family);
-    font-size: 64px;
-    letter-spacing: 1px;
-    font-weight: 800;
-    color: black;
+.header__content-title h1 {
+  font-family: var(--font-family);
+  font-size: 64px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: black;
 }
 
-.header__content-button{
-    margin-top: 2rem;
+.header__content-button {
+  margin-top: 2rem;
 }
 
-
-
-.header__content-button button{
-    background-color: var(--color1);
-    border: none;
-    padding: 0.5rem 1rem;
-    font-family: var(--font-family);
-    font-size: 16px;
-    color: #EEE9DA;
-    font-weight: 800;
+.header__content-button button {
+  background-color: var(--color1);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+  color: #eee9da;
+  font-weight: 800;
 }
 
-@media screen and (max-width: 1050px)
-{
-
-    .header__content-title h1{
-       
-        font-size: 54px;
-        
-    }
+.header__content-button button:hover {
+  background-color: var(--color4);
+  color: var(--color1);
 }
 
-
-
-
-
-
-
+@media screen and (max-width: 1050px) {
+  .header__content-title h1 {
+    font-size: 54px;
+  }
+}
